@@ -3,7 +3,7 @@ This project creates a recycler view that optimize the scroll panel by only show
 
 Without this, the game (Garry's Mod) would only be able to have about 200 panels before starting to lag, and creating 1000 panels would crash the game.
 
-With this, you can create as many panels as your RAM support (about 200mb for 1 000 000 simple panels) without lagging.
+With this, you can create as many panels as your RAM support without lagging.
 This is done by only showing the visible panels.
 
 The particularity of this project is that it supports panels with different size; Meaning each panels can have their own size without affecting the recycler view.
@@ -17,7 +17,7 @@ Ce projet crée un "recycler view", ce qui optimise un panel scrollable en affic
 
 Sans ceci, le jeu (Garry's Mod) ne pourrait afficher seulement 200 panels avant de commencer à avoir des problems de latences, et créer 1000 panels ferait planter le jeu.
 
-Avec ceci, vous êtes limité uniquement par la taille de votre RAM. (Approx. 200MB pour 1 000 000 de simples panels)
+Avec ceci, vous êtes limité uniquement par votre RAM.
 Il n'y a aucun problème de latence car le recycler view n'affiche que les panels visibles.
 
 La particularité de ce projet est qu'il supporte les panels qui ont des tailles différentes. Cela signifie que chaque panel peut avoir sa propre taille, sans que cela affecte les performances du recycler view.
